@@ -7,6 +7,34 @@
   bgColor: string;
   highlight?: boolean;
 }
+
+export const navLinks = [
+  {
+    href: "#home",
+    name: 'Home'
+  },
+  {
+    href: '#view',
+    name: 'View'
+  },
+  {
+    href: '#products',
+    name: 'Products'
+  },
+  {
+    href: '#maps',
+    name: 'maps'
+  }
+
+]
+
+export const menuImages = [
+    "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreihqz3obdlehxtbzfdm3jbxyjaw5vhc33gt7wj2ff7dflp4waaai4q",
+    "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidm3h3xulhemjavogurz4n2sljzd4vlcxjkjckq733hzav372z3fu",
+    "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidrlddfegcf5mjveyqtxti63622rafujrhiil2lbcbi2x6jtzueoe",
+    "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreiaspnyfqup7lxkvciannoydn3h4vyol5ynvkidxdqfxmyysbjn4sa",
+    "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreig7flkhfl4jtkoknwrlbdic2zintjkcu52n2x3qmd2yoef53smyqu"
+]
   
   export const products: Product[] = [
     {
@@ -51,3 +79,6 @@
       bgColor: 'bg-[#F5EDE4]'
     }
   ];
+
+
+  

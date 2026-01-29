@@ -7,19 +7,25 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
+import ListingsButton from '@/components/ListingsButton';
 
 const Listings = () => {
     return (
-        <div className=" md:py-16 relative">
+        <div className=" md:py-16 relative" id='products'>
             <div className="max-w-7xl mx-auto">
 
-                <div className='flex items-center gap-6 mb-6 md:mb-12'>
-                    <h2 className="text-4xl md:text-7xl font-extrabold tracking-[-2px] text-black whitespace-nowrap">
-                        Products
-                    </h2>
-                    <div className="grow h-0.5 bg-black mt-2"></div>
+                <div className='flex items-center justify-between mb-4'>
+                    {/* Kolom Kiri: Judul */}
+                    <div className="flex flex-col">
+                        <span className="text-green-600 font-bold text-[10px] md:text-sm tracking-[0.2em] uppercase mb-1 md:mb-2 ml-1">
+                            Freshly Brewed
+                        </span>
+                        <h2 className="text-[32px] md:text-7xl font-black tracking-[-2px] md:tracking-[-3px] text-[#1A2F1A] uppercase leading-[0.9] md:leading-none">
+                            Popular <br className='md:hidden'/> Products
+                        </h2>
+                    </div>
 
-
+                    <ListingsButton/>
                 </div>
 
                 <Carousel
@@ -32,9 +38,9 @@ const Listings = () => {
                                 key={product.id}
                                 className="md:px-3 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4 flex"
                             >
-                                <div className="p-1 h-full"> 
-                                    <Card className="rounded-3xl bg-gray-50 border-none shadow-md overflow-hidden group h-full flex flex-col">
-                                        <CardContent className="p-6 flex flex-col h-full"> 
+                                <div className="h-full pb-5 ">
+                                    <Card className="rounded-3xl border-none shadow-lg overflow-hidden group h-full flex flex-col">
+                                        <CardContent className="p-6 flex flex-col h-full">
 
                                             <div className="relative mb-6 flex justify-center shrink-0">
                                                 <div className="relative">
@@ -64,8 +70,8 @@ const Listings = () => {
                     </CarouselContent>
 
                     <div className="flex justify-center md:justify-end gap-4 mt-8">
-                        <CarouselPrevious className="static translate-y-0 h-12 w-12 bg-black text-white hover:bg-gray-800 hover:text-white" />
-                        <CarouselNext className="static translate-y-0 h-12 w-12 bg-black text-white hover:bg-gray-800 hover:text-white" />
+                        <CarouselPrevious className="static translate-y-0 h-12 w-12 bg-black text-white hover:bg-gray-800 hover:text-white cursor-pointer" />
+                        <CarouselNext className="static translate-y-0 h-12 w-12 bg-black text-white hover:bg-gray-800 hover:text-white cursor-pointer" />
                     </div>
                 </Carousel>
             </div>

@@ -26,7 +26,7 @@ export default function View() {
     ];
 
     return (
-        <section className="w-full bg-white pb-16  relative">
+        <section className="w-full bg-white pb-16  relative" id='view'>
             <div className="max-w-7xl mx-auto">
                 <SliderCard slides={slides} />
             </div>
