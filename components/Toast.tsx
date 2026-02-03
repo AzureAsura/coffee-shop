@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Toast = () => {
-  const whatsappNumber = "6289688072039"; 
+  const whatsappNumber = "#"; 
   const message = "Halo, saya ingin bertanya..."; 
   
   const waLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;

@@ -15,7 +15,7 @@ const Listings = () => {
             <div className="max-w-7xl mx-auto">
 
                 <div className='flex items-center justify-between mb-4'>
-                    {/* Kolom Kiri: Judul */}
+
                     <div className="flex flex-col">
                         <span className="text-green-600 font-bold text-[10px] md:text-sm tracking-[0.2em] uppercase mb-1 md:mb-2 ml-1">
                             Freshly Brewed

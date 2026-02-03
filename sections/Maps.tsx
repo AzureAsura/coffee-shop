@@ -1,44 +1,43 @@
 import React from 'react';
-import { Apple, Play, MapPin } from 'lucide-react'; // Tambah MapPin biar lebih dapet vibes lokasinya
+import { Apple, Play, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 const Maps = () => {
     return (
-        // Ganti ke bg-white atau stone-50 untuk kesan clean
+
         <section className="relative w-full bg-[#F9FBF9] py-16 px-6 md:px-10 overflow-hidden rounded-[3rem] mb-5 md:mb-16 mt-16 border border-green-100" id='maps'>
             
-            {/* Dekorasi Organik (Pengganti Grid) */}
             <div className="absolute top-[-10%] left-[-5%] w-64 h-64 bg-green-200/30 rounded-full blur-[80px] pointer-events-none"></div>
             <div className="absolute bottom-[-10%] right-[-5%] w-80 h-80 bg-green-100/40 rounded-full blur-[100px] pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
                 
                 <div className="space-y-8">
-                    {/* Badge Kecil biar lebih 'Greeny' */}
                     <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wider">
                         <MapPin size={16} />
-                        Our Greenhouse Location
+                         twenty one coffee & eatery
                     </div>
 
                     {/* Heading: Ganti text-white jadi text-stone-900 (hampir hitam) */}
                     <h1 className='lg:mb-6 lg:text-[74px] font-black lg:leading-[84px] tracking-[-0.03em] text-[#1A2F1A] md:mb-7 mb-4 text-5xl leading-tight uppercase'>
-                        Find Us in <br className="hidden lg:block" /> <span className="text-green-600">The Woods</span>
+                        CARI KITA DEKAT  <span className="text-green-600">RENON</span>
                     </h1>
 
                     <p className="text-stone-600 text-lg md:max-w-md leading-relaxed">
-                        Nikmati kopi terbaik di tengah suasana asri. Rute tercepat menuju ketenangan sudah kami siapkan untukmu.
+                        Yuk ke cafe di Renon Bali pilihan anak kuliahan dan pekerja kantoran. tempat tepat
+pencarian cafe daerah Renon, Denpasar kamu. Cek langsung lokasi kami di maps
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Link href='https://maps.app.goo.gl/scFbRSXDupahz4HY8' target='_blank' 
                             className="flex items-center justify-center gap-3 bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-black/90 hover:shadow-lg transition-all w-full sm:w-auto">
-                            <Play size={20} fill="currentColor" />
+                            <MapPin size={20}  />
                             Google Maps
                         </Link>
 
                         <Link href='https://maps.apple.com/...' target='_blank' 
                             className="flex items-center justify-center gap-3 border-2 border-green-600 text-green-600 px-8 py-4 rounded-full font-bold hover:bg-green-50 transition-all w-full sm:w-auto">
-                            <Apple size={24} fill="currentColor" />
+                            <Apple size={24} />
                             Apple Maps
                         </Link>
                     </div>

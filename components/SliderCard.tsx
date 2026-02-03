@@ -84,12 +84,10 @@ export default function SliderCard({ slides }: CarouselClientProps) {
                                     </div>
                                 </div>
 
-                                {/* Features - Icon & Text diadjust ukurannya */}
                                 <div className="w-full md:w-1/3 flex flex-row md:flex-col gap-4 md:gap-8 items-center justify-center">
                                     {slide.features.map((item, index) => (
                                         <div key={index} className="flex flex-col items-center justify-center gap-3 group">
                                             <div className="w-14 h-14 md:w-16 md:h-16 bg-green-50 rounded-full flex items-center justify-center text-gray-700 group-hover:bg-green-100 transition-colors border border-green-100/50">
-                                                {/* Memastikan icon ikut mengecil */}
                                                 <div className="scale-75 md:scale-90">{item.icon}</div>
                                             </div>
                                             <h3 className="font-bold text-[10px] md:text-sm text-black text-center uppercase tracking-wider">
