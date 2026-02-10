@@ -18,7 +18,6 @@ const Maps = () => {
                          twenty one coffee & eatery
                     </div>
 
-                    {/* Heading: Ganti text-white jadi text-stone-900 (hampir hitam) */}
                     <h1 className='lg:mb-6 lg:text-[74px] font-black lg:leading-[84px] tracking-[-0.03em] text-[#1A2F1A] md:mb-7 mb-4 text-5xl leading-tight uppercase'>
                         CARI KITA DEKAT  <span className="text-green-600">RENON</span>
                     </h1>
@@ -35,7 +34,7 @@ pencarian cafe daerah Renon, Denpasar kamu. Cek langsung lokasi kami di maps
                             Google Maps
                         </Link>
 
-                        <Link href='https://maps.apple.com/...' target='_blank' 
+                        <Link href='https://maps.apple/p/E0VCZGkJnn24KJ' target='_blank' 
                             className="flex items-center justify-center gap-3 border-2 border-green-600 text-green-600 px-8 py-4 rounded-full font-bold hover:bg-green-50 transition-all w-full sm:w-auto">
                             <Apple size={24} />
                             Apple Maps

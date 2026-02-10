@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/dialog"
 import { ArrowRight, Coffee, Utensils, UtensilsCrossed, X } from "lucide-react"
 import { menuImages } from "@/constants"
+import Link from "next/link"
 
 const ListingsButton = () => {
     return (
@@ -49,7 +50,7 @@ const ListingsButton = () => {
                         <div className="flex flex-row items-center justify-between mb-6 shrink-0 w-full">
                             <div className="flex items-center gap-2 text-green-600">
                                 <Utensils size={18} />
-                                <span className="text-[12px] font-bold uppercase tracking-[0.2em]">Our Selection</span>
+                                <span className="text-[12px] font-bold uppercase tracking-[0.2em]">Menu kami</span>
                             </div>
                             <DialogClose className="cursor-pointer">
                                 <X size={18} />
@@ -64,18 +65,21 @@ const ListingsButton = () => {
                                 key={index}
                                 className="overflow-hidden rounded-[1.5rem] shadow-sm bg-white border border-green-50"
                             >
-                                <img
-                                    src={src}
-                                    alt={`Menu Page ${index + 1}`}
-                                    className="w-full h-auto object-contain"
-                                    loading="lazy"
-                                />
+                                <Link href={src} target="_blank">
+                                    <img
+                                        src={src}
+                                        alt={`Menu Page ${index + 1}`}
+                                        className="w-full h-auto object-contain"
+                                        loading="lazy"
+                                    />
+                                
+                                </Link>
                             </div>
                         ))}
 
 
                         <div className="py-4 text-center text-[10px] text-gray-400 uppercase tracking-widest">
-                            End of Menu
+                            akhir dari menu
                         </div>
                     </div>
                 </div>

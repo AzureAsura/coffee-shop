@@ -38,7 +38,7 @@ const Hero = () => {
                         <div className='absolute inset-0 bg-white/80 z-10' />
                         <img
                             src="/hero.jpg"
-                            alt=""
+                            alt="hero"
                             className='w-full h-full object-cover'
                         />
                     </div>
