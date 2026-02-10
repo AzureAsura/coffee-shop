@@ -65,7 +65,7 @@ const FullscreenNav = ({ open, setOpen }: { open: boolean, setOpen: any }) => {
         <div className="mt-10 md:mt-0 w-full md:w-auto flex flex-row md:flex-col justify-between md:justify-center md:space-y-16 border-t md:border-none border-[#1A2F1A]/10 pt-8 md:pt-0">
 
           <div className="space-y-4">
-            <p className="uppercase text-[10px] md:text-[12px] tracking-[0.4em] text-[#1A2F1A]/40 font-bold">Socials</p>
+            <p className="uppercase text-[10px] md:text-[12px] tracking-[0.4em] text-[#1A2F1A]/40 font-bold">Sosial Media</p>
             <div className="space-y-2 text-sm md:text-lg font-bold">
               <ScrollLink
                 to={'follow'}
@@ -81,7 +81,7 @@ const FullscreenNav = ({ open, setOpen }: { open: boolean, setOpen: any }) => {
           </div>
 
           <div className="space-y-4">
-            <p className="uppercase text-[10px] md:text-[12px] tracking-[0.4em] text-[#1A2F1A]/40 font-bold">Contact</p>
+            <p className="uppercase text-[10px] md:text-[12px] tracking-[0.4em] text-[#1A2F1A]/40 font-bold">Kontak</p>
             <div className="space-y-2 text-sm md:text-lg font-bold text-right md:text-left">
               <p className="hover:text-green-600 cursor-pointer transition-colors">hello@twentyone.com</p>
               <p className="hover:text-green-600 cursor-pointer transition-colors">+62 821-xxxx-xxxx</p>

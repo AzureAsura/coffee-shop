@@ -9,7 +9,7 @@ interface Product {
 export const navLinks = [
   {
     href: "#home",
-    name: 'Home'
+    name: 'Beranda'
   },
   {
     href: '#view',
@@ -17,11 +17,11 @@ export const navLinks = [
   },
   {
     href: '#products',
-    name: 'Products'
+    name: 'Menu'
   },
   {
     href: '#maps',
-    name: 'maps'
+    name: 'Lokasi'
   },
   
 
