@@ -56,8 +56,8 @@ const Footer = () => {
                         Copyright 2026 © Twenty One Coffee & Eatery.
                     </p>
                     <div className="flex gap-6">
-                        <Link href="#" className="hover:text-green-700 transition-colors">Privacy Policy</Link>
-                        <Link href="#" className="hover:text-green-700 transition-colors">Terms of Service</Link>
+                        <Link href="#" className="hover:text-green-700 transition-colors">hello@twentyone.com</Link>
+                        <Link href="#" className="hover:text-green-700 transition-colors">+62 821-xxxx-xxxx</Link>
                     </div>
                 </div>
             </div>

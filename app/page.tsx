@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Toast from '@/components/Toast'
+import Follow from '@/sections/Follow'
 import Hero from '@/sections/Hero'
 import Listings from '@/sections/Listings'
 import Maps from '@/sections/Maps'
@@ -14,6 +15,7 @@ const page = () => {
         <View/>
         <Listings/>
         <Maps/>
+        <Follow/>
         <Footer/>
         <Toast/>
 

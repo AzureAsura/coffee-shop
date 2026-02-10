@@ -15,7 +15,6 @@ const Navbar = () => {
                         />
                     </div>
                     
-                    {/* Teks Logo: Pakai Deep Forest Green (#1A2F1A) */}
                     <div className="flex flex-col pl-3">
                         <span className="text-lg font-black leading-none text-[#1A2F1A] tracking-tight">
                             Twenty <span className="text-green-600">One</span>

@@ -53,7 +53,6 @@ pencarian cafe daerah Renon, Denpasar kamu. Cek langsung lokasi kami di maps
                             className="rounded-[2.2rem]"
                             style={{ border: 0, filter: 'grayscale(0.2) contrast(1.1)' }} 
                             allowFullScreen={true}
-                            loading="lazy"
                         ></iframe>
                     </div>
 
