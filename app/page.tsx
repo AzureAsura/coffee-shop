@@ -5,7 +5,6 @@ import Hero from '@/sections/Hero'
 import Listings from '@/sections/Listings'
 import Maps from '@/sections/Maps'
 import View from '@/sections/View'
-import React from 'react'
 
 const page = () => {
   return (

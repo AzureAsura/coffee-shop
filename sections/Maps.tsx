@@ -42,7 +42,7 @@ pencarian cafe daerah Renon, Denpasar kamu. Cek langsung lokasi kami di maps
                     </div>
                 </div>
 
-                <div className="relative flex justify-end items-center h-[350px] md:h-[500px]">
+                <div className="relative flex justify-center md:justify-end items-center h-[350px] md:h-[500px]">
 
                     <div className="relative w-full h-full max-w-[420px] bg-white p-3 rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-8 border-white overflow-hidden rotate-2 hover:rotate-0 transition-transform duration-500">
                         <iframe

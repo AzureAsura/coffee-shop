@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Twenty One Coffee & Eatery",
     images: [
       {
-        url: "/outdoor.jpg",
+        url: "logo.jpg",
         width: 1200,
         height: 630,
         alt: "Twenty One Coffee & Eatery Bali",
@@ -54,12 +54,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.className} ${inter.className} antialiased`}
-      >
-        <Navbar />
-        {children}
-      </body>
+        <body
+          className={`${poppins.className} ${inter.className} antialiased`}
+        >
+          <Navbar />
+          {children}
+        </body>
     </html>
   );
 }

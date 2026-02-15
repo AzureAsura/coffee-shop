@@ -23,16 +23,31 @@ export const navLinks = [
     href: '#maps',
     name: 'Lokasi'
   },
-  
+
 
 ]
 
 export const menuImages = [
-  "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreihqz3obdlehxtbzfdm3jbxyjaw5vhc33gt7wj2ff7dflp4waaai4q",
-  "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidm3h3xulhemjavogurz4n2sljzd4vlcxjkjckq733hzav372z3fu",
-  "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidrlddfegcf5mjveyqtxti63622rafujrhiil2lbcbi2x6jtzueoe",
-  "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreiaspnyfqup7lxkvciannoydn3h4vyol5ynvkidxdqfxmyysbjn4sa",
-  "https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreig7flkhfl4jtkoknwrlbdic2zintjkcu52n2x3qmd2yoef53smyqu"
+  {
+    img: 'menuimg1.jpeg',
+    href: 'https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreihqz3obdlehxtbzfdm3jbxyjaw5vhc33gt7wj2ff7dflp4waaai4q'
+  },
+  {
+    img: 'menuimg2.jpeg',
+    href: 'https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidm3h3xulhemjavogurz4n2sljzd4vlcxjkjckq733hzav372z3fu'
+  },
+  {
+    img: 'menuimg3.jpeg',
+    href: 'https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreidrlddfegcf5mjveyqtxti63622rafujrhiil2lbcbi2x6jtzueoe'
+  },
+  {
+    img: 'menuimg4.jpeg',
+    href: 'https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreiaspnyfqup7lxkvciannoydn3h4vyol5ynvkidxdqfxmyysbjn4sa'
+  },
+  {
+    img: 'menuimg5.jpeg',
+    href: 'https://jade-magic-marten-265.mypinata.cloud/ipfs/bafkreig7flkhfl4jtkoknwrlbdic2zintjkcu52n2x3qmd2yoef53smyqu'
+  },
 ]
 
 export const products: Product[] = [
@@ -111,13 +126,13 @@ export const products: Product[] = [
 
 
 export const instagramPlaceholder = [
-    { id: 1, type: 'video', url: 'https://www.instagram.com/p/DG210JpzHEC/', img: 'ig1.jpg' },
-    { id: 2, type: 'img', url: 'https://www.instagram.com/p/C47YwasybO6/', img: 'ig2.jpg' },
-    { id: 3, type: 'carousel', url: 'https://www.instagram.com/p/C5dnrZ3yDSE/', img: 'ig3.jpg' },
-    { id: 4, type: 'img', url: 'https://www.instagram.com/p/DR1R1TJE8ne/', img: 'ig4.jpg' },
-    { id: 5, type: 'img' , url: 'https://www.instagram.com/p/DTbkK6mEmX5/', img: 'ig5.jpg'},
-    { id: 6, type: 'video', url: 'https://www.instagram.com/p/DOS2eGlkzxn/', img: 'ig6.jpg' },
-    { id: 7, type: 'video', url: 'https://www.instagram.com/p/C2_4Z0UPj57/', img: 'ig7.jpg'},
-    { id: 8, type: 'img', url: 'https://www.instagram.com/p/C1jpRjWP-vF/', img: 'ig8.jpg'}
-  ];
+  { id: 1, type: 'video', url: 'https://www.instagram.com/p/DG210JpzHEC/', img: 'ig1.jpg' },
+  { id: 2, type: 'img', url: 'https://www.instagram.com/p/C47YwasybO6/', img: 'ig2.jpg' },
+  { id: 3, type: 'carousel', url: 'https://www.instagram.com/p/C5dnrZ3yDSE/', img: 'ig3.jpg' },
+  { id: 4, type: 'img', url: 'https://www.instagram.com/p/DR1R1TJE8ne/', img: 'ig4.jpg' },
+  { id: 5, type: 'img', url: 'https://www.instagram.com/p/DTbkK6mEmX5/', img: 'ig5.jpg' },
+  { id: 6, type: 'video', url: 'https://www.instagram.com/p/DOS2eGlkzxn/', img: 'ig6.jpg' },
+  { id: 7, type: 'video', url: 'https://www.instagram.com/p/C2_4Z0UPj57/', img: 'ig7.jpg' },
+  { id: 8, type: 'img', url: 'https://www.instagram.com/p/C1jpRjWP-vF/', img: 'ig8.jpg' }
+];
 

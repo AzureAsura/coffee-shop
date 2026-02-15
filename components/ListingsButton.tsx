@@ -65,9 +65,9 @@ const ListingsButton = () => {
                                 key={index}
                                 className="overflow-hidden rounded-[1.5rem] shadow-sm bg-white border border-green-50"
                             >
-                                <Link href={src} target="_blank">
+                                <Link href={src.href} target="_blank">
                                     <img
-                                        src={src}
+                                        src={src.img}
                                         alt={`Menu Page ${index + 1}`}
                                         className="w-full h-auto object-contain"
                                         loading="lazy"
